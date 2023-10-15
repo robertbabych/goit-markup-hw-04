@@ -9,5 +9,10 @@
   "jsxBracketSameLine": false,
   "arrowParens": "avoid",
   "proseWrap": "always",
-  "html.format.wrapAttributes": "force-aligned"
+  "bracketSameLine": true,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "ignore"
 }

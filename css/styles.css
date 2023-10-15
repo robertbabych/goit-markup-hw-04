@@ -32,6 +32,7 @@ ol {
 img {
   display: block;
 }
+
 body p {
   font-weight: 400;
   font-size: 16px;
@@ -98,6 +99,9 @@ body ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-soc {
   margin-left: auto;
@@ -117,6 +121,9 @@ body ul {
   letter-spacing: 0.02em;
   color: #434455;
   padding: 24px 0;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:hover,
@@ -170,10 +177,14 @@ body ul {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
-.order-button:hover,
-.order-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -292,6 +303,14 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404bbf;
 }
 
 .team-soc-icon {
@@ -411,4 +430,11 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
 }
