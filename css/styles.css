@@ -100,8 +100,7 @@ body ul {
   color: #2e2f42;
   padding: 24px 0;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-soc {
   margin-left: auto;
@@ -122,8 +121,7 @@ body ul {
   color: #434455;
   padding: 24px 0;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:hover,
@@ -178,9 +176,7 @@ body ul {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px #00000026;
 }
 
@@ -451,6 +447,7 @@ body ul {
 .footer-soc-item {
   width: 40px;
   height: 40px;
+  fill: #f4f4fd;
 }
 .footer-soc-link {
   width: 100%;
