@@ -139,7 +139,7 @@ body ul {
   color: #434455;
   padding: 24px 0;
   transition-property: color;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:hover,
