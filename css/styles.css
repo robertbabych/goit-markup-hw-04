@@ -149,9 +149,6 @@ body ul {
 
 /*=========== HERO ==============*/
 .hero {
-}
-.hero-container {
-  text-align: center;
   background-color: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -163,6 +160,10 @@ body ul {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
+}
+.hero-container {
+  text-align: center;
 }
 
 .hero-title {
